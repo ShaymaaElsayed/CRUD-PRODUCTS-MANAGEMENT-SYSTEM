@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(../imag/OQCI8C0.jpg);
+    background-size: cover;
+    color: rgb(221, 136, 194);
+    font-family: system-ui;
+
+}
+.crud{
+    width: 80%;
+    margin: auto;
+}
+.head{
+    text-align: center;
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+/*inputs*/
+input{
+    width: 100%;
+    height: 30px;
+    outline: none;
+    border: none;
+    background: rgb(232, 140, 203);
+    margin: 4px;
+    border-radius: 4px;
+    padding: 4px;
+    color: rgb(245, 243, 244);
+}
+input:focus{
+    background: rgb(170, 19, 127);
+    transform: scale(1.1);
+}
+.price input{
+    width: 20%;
+}
+#total{
+    background: rgb(232, 140, 203);
+    color: white;
+    padding: 7px 3px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-family: 'Segoe UI';
+}
+#total::before{
+    content: 'Total : ';
+}
+button{
+    width: 100%;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+    background: rgb(170, 19, 127);
+    color: aliceblue;
+    border-radius: 20px;
+    transition: 0.5s;
+    margin: 5px;
+    padding: 5px;
+}
+button:hover{
+    background:  rgb(185, 28, 140);
+    letter-spacing: 2px;
+
+}
+.btnsearch{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+    padding: 5px;
+}
+.btnsearch button{
+    width: 40%;
+}
+#deleteAll{
+    margin: 20px;
+}
+table{
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+}
+table th{
+    text-transform: uppercase;
+}
+th, td{
+    padding: 5px;
+}
